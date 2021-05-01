@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+  header #emprendimiento {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: gray;
+    justify-content: flex-start;
+    justify-items: baseline;
+    margin-top: 0.5em;
+    margin-left: 1em; }
+  header .menu ul {
+    display: flex; }
+  header .menu li {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 0;
+    list-style: none;
+    align-items: center; }
+  header .menu a {
+    color: gray;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: gray;
+    width: 100%; }
+  header .menu a:hover {
+    color: dodgerblue;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; }
+  header .menu2 ul {
+    display: flex; }
+  header .menu2 li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    justify-content: flex-end;
+    padding-right: 2em; }
+  header .menu2 .iconos {
+    display: flex; }
+  header .menu2 img {
+    margin-right: 0.5em;
+    width: 16px;
+    opacity: 50%; }
+
+/* CUADROS */
+.faq h1 {
+  color: dodgerblue;
+  font-size: 46px;
+  font-family: Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  padding-top: 2em; }
+
+.faq .bloqueEncargo {
+  display: flex;
+  margin-left: 1.5em;
+  align-content: center; }
+  .faq .bloqueEncargo img {
+    width: 50%;
+    height: auto; }
+  .faq .bloqueEncargo .encargo h2 {
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Helvetica, sans-serif;
+    margin-left: 0.8em;
+    padding-top: 0em;
+    margin-bottom: 0.5em; }
+  .faq .bloqueEncargo .encargo p {
+    color: darkgrey;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-left: 2.5em;
+    margin-top: 1em; }
+  .faq .bloqueEncargo .encargo li {
+    color: darkgrey;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-left: 1em;
+    margin-top: 1em; }
+  .faq .bloqueEncargo .encargo button {
+    background-color: dodgerblue;
+    border-color: none;
+    border-radius: 10em;
+    border-style: none;
+    border-width: 1.5em;
+    padding: 0.3em;
+    margin-top: 1em;
+    margin-left: 2.5em; }
+    .faq .bloqueEncargo .encargo button a {
+      color: white; }
+    .faq .bloqueEncargo .encargo button button:hover {
+      transform: scale(1.2);
+      transition: 1s; }
+
+.preguntas h4 {
+  color: dodgerblue;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  margin-left: 1.8em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.preguntas p {
+  color: darkgrey;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  padding: 0; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  margin: 1;
+  margin-bottom: 1.5em;
+  padding: 0; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    width: 100vh;
+    padding-left: 1em;
+    align-items: baseline; }
+  footer .redes {
+    display: flex;
+    margin-left: 1em;
+    margin-right: 1em; }
+  footer li {
+    list-style: none; }
+  footer img {
+    width: 1.5em;
+    height: auto;
+    opacity: 50%;
+    margin-left: 0.5em;
+    margin-right: 0.5em; }

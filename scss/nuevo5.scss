@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+    
+    /* HEADER */
+    
+    
+    header {
+        display:flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        margin: 0; 
+        margin-top: 0;
+        padding-top:0;
+        
+        #emprendimiento {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: gray;
+        justify-content: flex-start;
+        justify-items: baseline;
+        margin-top: 0.5em;
+        margin-left: 1em;
+        
+        }
+        
+        .menu {
+        
+            ul {
+            display: flex;
+            }
+        
+            li {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                margin-top: 1em;
+                color: gray;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+                justify-content: center;
+                justify-content: space-evenly;
+                padding-left: 0;
+                list-style: none;
+                align-items: center;
+            }
+        
+            a {
+                color: gray;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+                outline: gray;
+                width: 100%;
+            }
+        
+            a:hover {
+                color: dodgerblue;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+            }
+        
+        }
+        
+        .menu2 {
+        
+            ul { 
+                display: flex;
+            }
+        
+        
+            li {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                color: gray;
+                justify-content: flex-end;
+                padding-right: 2em;
+            }
+        
+            .iconos {
+            display: flex;
+            }
+        
+            img {
+            margin-right: 0.5em;
+            width: 16px;
+            opacity: 50%;
+            }
+        }
+    }
+
+
+/* BODY */
+
+.galeria {
+
+    width:100%;
+    margin-left: 2em;
+    justify-content: flex-end;
+
+    h1 {
+        color:dodgerblue;
+        font-size: 46px;
+        font-family: Helvetica, sans-serif;
+        margin-left: 0.5em;
+        margin-top: 0em;
+        padding-top: 3em;
+        margin-bottom: 0.5em;
+    
+    }
+
+    ul {
+        margin-top: 2em;
+        padding-left: 0em;
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        
+        }
+
+
+    li {
+        display:inline-block;
+        list-style: none;
+        list-style-position: outside;
+        }
+
+     img {
+            width: 300px; 
+            height:auto;
+        }
+
+        #fraseUno {
+            font-family: 'Roboto', sans-serif;
+            font-size: 32px;
+            font-weight: lighter;
+            color: dodgerblue;
+            margin-left: 0em;
+            width:100%;
+            align-items: center;
+            padding-top: 0;
+        }
+
+        #epigrafe { 
+            font-family: 'Roboto', sans-serif;
+            color: darkgray;
+            font-size: 16px;
+            text-decoration: underline;
+            margin-top: 0.5em;
+            margin-bottom: 0.2em;
+        }
+
+
+        #medida { 
+        font-family: 'Roboto', sans-serif;
+        color: darkgray;
+        font-size: 12px;
+        margin-top:0.2em;
+        margin-bottom: 1em;
+        }
+      
+
+
+        /* distribucion grids */
+
+        #cuadroUno {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            }
+            
+            #fraseUno {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            
+            
+                    
+            }
+            #cuadroDos {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            }
+            
+            #cuadroTres { 
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            }
+            
+            
+            #cuadroCuatro {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            }
+            
+            #cuadroCinco {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            }
+            
+            #cuadroSeis {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            }
+            
+            #cuadroSiete {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            }
+            
+            #cuadroOcho {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 6;       
+            }
+                
+            
+            #cuadroNueve {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            }
+            
+            
+}
+
+/* OPERACIONES */
+
+$ancho:300px;
+$alto:auto;
+
+.galeria {
+
+    img {
+    width: $ancho;
+    height: $alto;
+    }
+
+    img:hover {
+    width: $ancho*2;
+    }
+}
+
+/*-----------*/
+
+.precios {
+
+    margin-left: 2em;
+
+    h1 {
+        font-size: 24px;
+        font-weight: medium;
+        font-style: normal;
+        color:dodgerblue;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 0em;
+    }
+    
+    
+    table  { margin:0em;
+            margin-top:0;
+            margin-bottom: 1em;
+    }
+    
+    th {
+              background-color:ghostwhite;
+              font-family: 'Roboto', sans-serif;
+              font-size: 14px;
+              font-weight: bolder;
+              color: darkgrey;
+              padding:0.5em;
+                      
+    }
+    
+    td {font-weight:normal;
+    }
+}
+
+.pedido {
+
+    
+    display: block;
+    margin: 2em;;
+    
+    
+        .forms {
+        display: flex;
+        }
+        
+        h1 {
+                    font-size: 24px;
+                    font-weight: medium;
+                    font-style: normal;
+                    color:dodgerblue;
+                    font-family: 'Roboto', sans-serif;
+                    margin-left: 1em;
+                    margin-left: 0em;
+        }
+        
+    
+        
+       img {
+                     width:900px;
+                    height: auto;
+    }
+    
+    
+    form { 
+        background-color: dodgerblue;
+        width:100%;
+           font-family: 'Roboto', sans-serif;
+           font-size: 14px;
+           font-weight: normal;
+           color: ghostwhite;
+           padding:0.8em;
+           margin-top: 0em;
+           margin-right: 1em;
+
+    
+    }
+    
+    form select { background-color: white;
+                  color:gray;
+                  font-family: 'Roboto', sans-serif;
+    }
+    
+    aside p { padding-left: 1em; }
+    
+    
+}
+
+    /* FOOTER */
+
+
+footer { 
+
+    width: 100%;
+    margin:1;
+    margin-bottom: 1.5em;
+    padding: 0;
+
+    
+    ul { 
+        display:flex;
+        flex-direction:row;
+        color: darkgray;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        width: 100vh;
+        padding-left: 1em;
+        align-items: baseline;
+                
+    }
+    
+
+    .redes {
+        display: flex;
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+
+
+    li {
+    list-style: none;
+
+    }
+  
+    
+    img {
+    width: 1.5em;
+    height: auto;
+    opacity: 50%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    
+    }
+}

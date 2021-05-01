@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* HEADER */
+    
+    
+    header {
+        display:flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        margin: 0; 
+        
+        #emprendimiento {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: gray;
+        justify-content: flex-start;
+        justify-items: baseline;
+        margin-top: 0.5em;
+        margin-left: 1em;
+        
+        }
+        
+        .menu {
+        
+            ul {
+            display: flex;
+            }
+        
+            li {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                margin-top: 1em;
+                color: gray;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+                justify-content: center;
+                justify-content: space-evenly;
+                padding-left: 0;
+                list-style: none;
+                align-items: center;
+            }
+        
+            a {
+                color: gray;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+                outline: gray;
+                width: 100%;
+            }
+        
+            a:hover {
+                color: dodgerblue;
+                font-size: 14px;
+                font-family:'Roboto', sans-serif;
+            }
+        
+        }
+        
+        .menu2 {
+        
+            ul { 
+                display: flex;
+            }
+        
+        
+            li {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                color: gray;
+                justify-content: flex-end;
+                padding-right: 2em;
+            }
+        
+            .iconos {
+            display: flex;
+            }
+        
+            img {
+            margin-right: 0.5em;
+            width: 16px;
+            opacity: 50%;
+            }
+        }
+        }
+        
+    /* BODY */
+        
+    body {
+    background-color: dodgerblue;
+    }
+
+    img {
+        width:100%;
+        }
+        
+.contacto {
+
+    display: block;
+    margin-left: 2em;
+   
+    
+    h1 {
+        color:whitesmoke;
+        font-size: 46px;
+        font-family: Helvetica, sans-serif;
+        margin-top: 0em;
+        padding-top: 1em;
+        margin-bottom: 0.5em;
+    
+    }
+
+    form {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    }
+
+
+    fieldset { padding: 0em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        border-style: none;
+    }
+
+    #buttonBlanco {color:white;
+           font-family: 'Roboto', sans-serif;
+           border-style: solid;
+           border-width: 0.2em;
+           border-color: white;
+    }
+
+    #buttonBlanco:hover {
+        color: dodgerblue;
+        background-color: white;
+    }
+
+    .contactofull {
+        
+    display: flex;
+
+    aside {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+    }
+    }
+
+   
+}
+
+
+
+
+    /* FOOTER */
+    
+    
+    footer { 
+        width: 100%;
+        margin:1;
+        margin-bottom: 1.5em;
+        padding: 0;
+    
+      
+            
+        ul { 
+            display:flex;
+            flex-direction:row;
+            color: whitesmoke;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            width: 100vh;
+            padding-left: 1em;
+            align-items: baseline;
+                    
+        }
+        
+    
+        .redes {
+            display: flex;
+            margin-left: 1em;
+            margin-right: 1em;
+    
+        }
+    
+    
+        li {
+        list-style: none;
+    
+        }
+      
+        
+        img {
+        width: 1.5em;
+        height: auto;
+        color: whitesmoke;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        
+        }
+    }
